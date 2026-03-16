@@ -1,3 +1,26 @@
+:root {
+  --COLOR-WHITE: #fff;
+  --COLOR-BLACK: #000;
+  --COLOR-P1: #4c84bf;
+  --COLOR-P2: #295f98;
+  --COLOR-P3: #194b80;
+  --COLOR-P4: #093059;
+  --COLOR-S1: #d9d0b8;
+  --COLOR-S2: #cdc2a5;
+  --COLOR-S3: #b2a686;
+  --COLOR-S4: #8c7d54;
+  --COLOR-GRAY1: #fff8f2;
+  --COLOR-GRAY2: #e0dbd5;
+  --COLOR-GRAY3: #bfbcb6;
+  --COLOR-GRAY4: #a6a39e;
+  --COLOR-GRAY5: #73716d;
+  --COLOR-GRAY6: #403f3c;
+  --COLOR-UTILITY1: #f32a2a;
+  --COLOR-UTILITY2: #f3f32a;
+  --COLOR-UTILITY3: #2edd33;
+  --COLOR-UTILITY4: #abdef8;
+}
+
 .font1-XXL {
   font: 400 6rem/1 "Sansation";
 }
