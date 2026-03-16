@@ -1,49 +1,101 @@
 .font1-XXL {
-  font: 400 8rem/1 "Sansation";
+  font: 400 6rem/1 "Sansation";
 }
 .font1-XL {
-  font: 400 3rem/1.33 "Sansation";
+  font: 400 2rem/1.33 "Sansation";
 }
 .font1-L {
-  font: 700 2.5rem/1.6 "Sansation";
+  font: 700 1.75rem/1.6 "Sansation";
 }
 .font1-M1 {
-  font: 400 2rem/1 "Sansation";
+  font: 400 1.33rem/1 "Sansation";
 }
 .font1-M2 {
-  font: 700 2rem/1 "Sansation";
+  font: 700 1.33rem/1 "Sansation";
   letter-spacing: 2px;
 }
 .font1-M3 {
-  font: 400 2rem/1 "Sansation";
+  font: 400 1.33rem/1 "Sansation";
   letter-spacing: 2px;
 }
 .font1-S1 {
-  font: 400 1.5rem/1.33 "Sansation";
+  font: 400 1rem/1.33 "Sansation";
 }
 .font1-S2 {
-  font: 400 1.5rem/1 "Sansation";
+  font: 400 1rem/1 "Sansation";
 }
 .font1-XS1 {
-  font: 700 1.25rem/1.2 "Sansation";
+  font: 700 0.75/1.2 "Sansation";
 }
 .font1-XS2 {
-  font: 400 1.25rem/1.2 "Sansation";
+  font: 400 0.75/1.2 "Sansation";
 }
 .font1-XS3 {
-  font: 400 1.25rem/1 "Sansation";
+  font: 400 0.75/1 "Sansation";
 }
 .font2-XL {
-  font: 6rem/1 "Electrolize";
+  font: 3rem/1 "Electrolize";
 }
 .font2-L {
-  font: 4rem/1 "Electrolize";
+  font: 2rem/1 "Electrolize";
 }
 .font2-M {
-  font: 3rem/1 "Electrolize";
+  font: 1.5rem/1 "Electrolize";
   letter-spacing: 2px;
 }
 .font2-S {
-  font: 2rem/1 "Electrolize";
+  font: 1rem/1 "Electrolize";
   letter-spacing: 2px;
+}
+
+@media (min-width: 1200px) {
+  .font1-XXL {
+    font: 400 8rem/1 "Sansation";
+  }
+  .font1-XL {
+    font: 400 3rem/1.33 "Sansation";
+  }
+  .font1-L {
+    font: 700 2.5rem/1.6 "Sansation";
+  }
+  .font1-M1 {
+    font: 400 2rem/1 "Sansation";
+  }
+  .font1-M2 {
+    font: 700 2rem/1 "Sansation";
+    letter-spacing: 2px;
+  }
+  .font1-M3 {
+    font: 400 2rem/1 "Sansation";
+    letter-spacing: 2px;
+  }
+  .font1-S1 {
+    font: 400 1.5rem/1.33 "Sansation";
+  }
+  .font1-S2 {
+    font: 400 1.5rem/1 "Sansation";
+  }
+  .font1-XS1 {
+    font: 700 1.25rem/1.2 "Sansation";
+  }
+  .font1-XS2 {
+    font: 400 1.25rem/1.2 "Sansation";
+  }
+  .font1-XS3 {
+    font: 400 1.25rem/1 "Sansation";
+  }
+  .font2-XL {
+    font: 6rem/1 "Electrolize";
+  }
+  .font2-L {
+    font: 4rem/1 "Electrolize";
+  }
+  .font2-M {
+    font: 3rem/1 "Electrolize";
+    letter-spacing: 2px;
+  }
+  .font2-S {
+    font: 2rem/1 "Electrolize";
+    letter-spacing: 2px;
+  }
 }
