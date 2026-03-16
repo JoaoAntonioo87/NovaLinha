@@ -142,6 +142,13 @@
   letter-spacing: 2px;
 }
 
+/* CONTAINER */
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
 /* DESKTOP */
 
 @media (min-width: 1200px) {
