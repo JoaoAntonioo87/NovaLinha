@@ -1,3 +1,4 @@
+/* COLORS VARIABLES */
 :root {
   --COLOR-WHITE: #fff;
   --COLOR-BLACK: #000;
@@ -21,6 +22,69 @@
   --COLOR-UTILITY4: #abdef8;
 }
 
+/* COLORS CLASSES */
+.white {
+  color: var(--COLOR-WHITE);
+}
+.black {
+  color: var(--COLOR-BLACK);
+}
+.p1 {
+  color: var(--COLOR-P1);
+}
+.p2 {
+  color: var(--COLOR-P2);
+}
+.p3 {
+  color: var(--COLOR-P3);
+}
+.p4 {
+  color: var(--COLOR-P4);
+}
+.s1 {
+  color: var(--COLOR-s1);
+}
+.s2 {
+  color: var(--COLOR-s2);
+}
+.s3 {
+  color: var(--COLOR-s3);
+}
+.s4 {
+  color: var(--COLOR-s4);
+}
+.gray1 {
+  color: var(--COLOR-GRAY1);
+}
+.gray2 {
+  color: var(--COLOR-GRAY2);
+}
+.gray3 {
+  color: var(--COLOR-GRAY3);
+}
+.gray4 {
+  color: var(--COLOR-GRAY4);
+}
+.gray5 {
+  color: var(--COLOR-GRAY5);
+}
+.gray6 {
+  color: var(--COLOR-GRAY6);
+}
+.utility1 {
+  color: var(--COLOR-UTILITY1);
+}
+.utility2 {
+  color: var(--COLOR-UTILITY2);
+}
+.utility3 {
+  color: var(--COLOR-UTILITY3);
+}
+.utility4 {
+  color: var(--COLOR-UTILITY4);
+}
+
+/* FONTS CLASSES */
 .font1-XXL {
   font: 400 6rem/1 "Sansation";
 }
@@ -70,6 +134,8 @@
   font: 1rem/1 "Electrolize";
   letter-spacing: 2px;
 }
+
+/* DESKTOP */
 
 @media (min-width: 1200px) {
   .font1-XXL {
