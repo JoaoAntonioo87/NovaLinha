@@ -13,8 +13,9 @@ li {
   list-style: none;
 }
 
-/* COLORS VARIABLES */
+/* VARIABLES */
 :root {
+  /* COLORS */
   --COLOR-WHITE: #fff;
   --COLOR-BLACK: #000;
   --COLOR-P1: #4c84bf;
@@ -35,6 +36,24 @@ li {
   --COLOR-UTILITY2: #f3f32a;
   --COLOR-UTILITY3: #2edd33;
   --COLOR-UTILITY4: #abdef8;
+  /* FONTS */
+  --FONT1-XXL: 400 6rem/1 "Sansation";
+  --FONT1-XL: 400 2rem/1.33 "Sansation";
+  --FONT1-L: 700 1.75rem/1.6 "Sansation";
+  --FONT1-M1: 400 1.33rem/1 "Sansation";
+  --FONT1-M2: 700 1.33rem/1 "Sansation";
+  --FONT1-M3: 400 1.33rem/1 "Sansation";
+  --FONT1-S1: 400 1rem/1.33 "Sansation";
+  --FONT1-S2: 400 1rem/1 "Sansation";
+  --FONT1-XS1: 700 0.75rem/1.2 "Sansation";
+  --FONT1-XS2: 400 0.75rem/1.2 "Sansation";
+  --FONT1-XS3: 400 0.75rem/1 "Sansation";
+  --FONT2-XL: 3rem/1 "Electrolize";
+  --FONT2-L: 2rem/1 "Electrolize";
+  --FONT2-M: 1.5rem/1 "Electrolize";
+  --FONT2-S: 1rem/1 "Electrolize";
+  /* LETTER-SPACING */
+  --LETTER-SPACING: 2px;
 }
 
 /* COLORS CLASSES */
@@ -127,13 +146,13 @@ li {
   font: 400 1rem/1 "Sansation";
 }
 .font1-XS1 {
-  font: 700 0.75/1.2 "Sansation";
+  font: 700 0.75rem/1.2 "Sansation";
 }
 .font1-XS2 {
-  font: 400 0.75/1.2 "Sansation";
+  font: 400 0.75rem/1.2 "Sansation";
 }
 .font1-XS3 {
-  font: 400 0.75/1 "Sansation";
+  font: 400 0.75rem/1 "Sansation";
 }
 .font2-XL {
   font: 3rem/1 "Electrolize";
@@ -151,14 +170,12 @@ li {
 }
 
 /* CONTAINER */
-
 .container {
   max-width: 300px;
   margin: 0 auto;
 }
 
 /* TABLETS */
-
 @media (min-width: 750px) {
   /* CONTAINER */
   .container {
@@ -168,7 +185,6 @@ li {
 }
 
 /* DESKTOP */
-
 @media (min-width: 1200px) {
   /* FONTS CLASSES */
 
