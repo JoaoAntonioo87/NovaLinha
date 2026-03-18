@@ -61,6 +61,38 @@ li {
   --SHADOW4: 0 8px 8px var(--COLOR-GRAY4);
 }
 
+/* BUTTONS */
+.btn1 {
+  background-color: var(--COLOR-P4);
+  border-radius: 1rem;
+  box-shadow: var(--SHADOW2);
+  color: var(--COLOR-WHITE);
+  font: var(--FONT2-M);
+  letter-spacing: var(--LETTER-SPACING);
+  padding: 1rem 2rem;
+  transition: all 0.3s;
+}
+
+.btn1:hover {
+  background-color: var(--COLOR-P2);
+  box-shadow: var(--SHADOW1);
+}
+
+.btn2 {
+  background-color: var(--COLOR-S1);
+  border-radius: 1rem;
+  box-shadow: var(--SHADOW2);
+  color: var(--COLOR-BLACK);
+  font: var(--FONT2-M);
+  letter-spacing: var(--LETTER-SPACING);
+  padding: 1rem 2rem;
+  transition: all 0.3s;
+}
+
+.btn2:hover {
+  box-shadow: var(--SHADOW1);
+}
+
 /* COLORS CLASSES */
 .white {
   color: var(--COLOR-WHITE);
