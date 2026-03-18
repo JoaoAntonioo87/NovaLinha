@@ -100,6 +100,7 @@ li {
 .btn3:hover {
   box-shadow: var(--SHADOW1);
 }
+
 /* COLORS CLASSES */
 .white {
   color: var(--COLOR-WHITE);
@@ -170,7 +171,7 @@ li {
 
 /* FONTS CLASSES */
 .font1-XXL {
-  font: 400 6rem/1 "Sansation";
+  font: 400 4rem/1 "Sansation";
 }
 .font1-XL {
   font: 400 2rem/1.33 "Sansation";
@@ -239,6 +240,11 @@ li {
   .container {
     max-width: 700px;
     margin: 0 auto;
+  }
+
+  /* FONT CLASSES */
+  .font1-XXL {
+    font: 400 6rem/1 "Sansation";
   }
 }
 
