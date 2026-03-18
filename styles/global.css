@@ -123,6 +123,12 @@ li {
   color: var(--COLOR-UTILITY4);
 }
 
+/* CONTAINER */
+.container {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 /* FONTS CLASSES */
 .font1-XXL {
   font: 400 6rem/1 "Sansation";
@@ -172,12 +178,6 @@ li {
 .font2-S {
   font: 1rem/1 "Electrolize";
   letter-spacing: 2px;
-}
-
-/* CONTAINER */
-.container {
-  max-width: 300px;
-  margin: 0 auto;
 }
 
 /* SHADOWS */
