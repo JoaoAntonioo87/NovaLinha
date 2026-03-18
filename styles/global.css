@@ -62,15 +62,18 @@ li {
 }
 
 /* BUTTONS */
-.btn1 {
-  background-color: var(--COLOR-P4);
+.btn {
   border-radius: 1rem;
   box-shadow: var(--SHADOW2);
-  color: var(--COLOR-WHITE);
-  font: var(--FONT2-M);
   letter-spacing: var(--LETTER-SPACING);
   padding: 1rem 2rem;
   transition: all 0.3s;
+}
+
+.btn1 {
+  background-color: var(--COLOR-P4);
+  color: var(--COLOR-WHITE);
+  font: var(--FONT2-M);
 }
 
 .btn1:hover {
@@ -80,19 +83,23 @@ li {
 
 .btn2 {
   background-color: var(--COLOR-S1);
-  border-radius: 1rem;
-  box-shadow: var(--SHADOW2);
   color: var(--COLOR-BLACK);
   font: var(--FONT2-M);
-  letter-spacing: var(--LETTER-SPACING);
-  padding: 1rem 2rem;
-  transition: all 0.3s;
 }
 
 .btn2:hover {
   box-shadow: var(--SHADOW1);
 }
 
+.btn3 {
+  background-color: var(--COLOR-S1);
+  color: var(--COLOR-BLACK);
+  font: var(--FONT2-S);
+}
+
+.btn3:hover {
+  box-shadow: var(--SHADOW1);
+}
 /* COLORS CLASSES */
 .white {
   color: var(--COLOR-WHITE);
