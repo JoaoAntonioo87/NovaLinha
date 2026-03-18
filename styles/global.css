@@ -54,6 +54,11 @@ li {
   --FONT2-S: 1rem/1 "Electrolize";
   /* LETTER-SPACING */
   --LETTER-SPACING: 2px;
+  /* SHADOW */
+  --SHADOW1: 0 16px 16px rgba(0, 0, 0, 0.5);
+  --SHADOW2: 0 8px 8px rgba(0, 0, 0, 0.5);
+  --SHADOW3: 0 16px 16px var(--COLOR-GRAY4);
+  --SHADOW4: 0 8px 8px var(--COLOR-GRAY4);
 }
 
 /* COLORS CLASSES */
@@ -175,6 +180,20 @@ li {
   margin: 0 auto;
 }
 
+/* SHADOWS */
+.shadow1 {
+  box-shadow: var(--SHADOW1);
+}
+.shadow2 {
+  box-shadow: var(--SHADOW2);
+}
+.shadow3 {
+  box-shadow: var(--SHADOW3);
+}
+.shadow4 {
+  box-shadow: var(--SHADOW4);
+}
+
 /* TABLETS */
 @media (min-width: 750px) {
   /* CONTAINER */
@@ -186,26 +205,8 @@ li {
 
 /* DESKTOP */
 @media (min-width: 1200px) {
-  /* FONTS */
-  :root {
-    --FONT1-XXL: 400 8rem/1 "Sansation";
-    --FONT1-XL: 400 3rem/1.33 "Sansation";
-    --FONT1-L: 700 2.5rem/1.6 "Sansation";
-    --FONT1-M1: 400 2rem/1 "Sansation";
-    --FONT1-M2: 700 2rem/1 "Sansation";
-    --FONT1-M3: 400 2rem/1 "Sansation";
-    --FONT1-S1: 400 1.5rem/1.33 "Sansation";
-    --FONT1-S2: 400 1.5rem/1 "Sansation";
-    --FONT1-XS1: 700 1.25rem/1.2 "Sansation";
-    --FONT1-XS2: 400 1.25rem/1.2 "Sansation";
-    --FONT1-XS3: 400 1.25rem/1 "Sansation";
-    --FONT2-XL: 6rem/1 "Electrolize";
-    --FONT2-L: 4rem/1 "Electrolize";
-    --FONT2-M: 3rem/1 "Electrolize";
-    --FONT2-S: 2rem/1 "Electrolize";
-  }
-
   /* FONTS CLASSES */
+
   .font1-XXL {
     font: 400 8rem/1 "Sansation";
   }
