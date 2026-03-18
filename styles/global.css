@@ -186,8 +186,26 @@ li {
 
 /* DESKTOP */
 @media (min-width: 1200px) {
-  /* FONTS CLASSES */
+  /* FONTS */
+  :root {
+    --FONT1-XXL: 400 8rem/1 "Sansation";
+    --FONT1-XL: 400 3rem/1.33 "Sansation";
+    --FONT1-L: 700 2.5rem/1.6 "Sansation";
+    --FONT1-M1: 400 2rem/1 "Sansation";
+    --FONT1-M2: 700 2rem/1 "Sansation";
+    --FONT1-M3: 400 2rem/1 "Sansation";
+    --FONT1-S1: 400 1.5rem/1.33 "Sansation";
+    --FONT1-S2: 400 1.5rem/1 "Sansation";
+    --FONT1-XS1: 700 1.25rem/1.2 "Sansation";
+    --FONT1-XS2: 400 1.25rem/1.2 "Sansation";
+    --FONT1-XS3: 400 1.25rem/1 "Sansation";
+    --FONT2-XL: 6rem/1 "Electrolize";
+    --FONT2-L: 4rem/1 "Electrolize";
+    --FONT2-M: 3rem/1 "Electrolize";
+    --FONT2-S: 2rem/1 "Electrolize";
+  }
 
+  /* FONTS CLASSES */
   .font1-XXL {
     font: 400 8rem/1 "Sansation";
   }
