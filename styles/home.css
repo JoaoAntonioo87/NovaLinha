@@ -1,0 +1,16 @@
+/* INTRO */
+.intro {
+  position: relative;
+}
+
+.intro video {
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.intro-text {
+  position: absolute;
+  text-align: center;
+  top: 25vh;
+}
