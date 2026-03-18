@@ -1,16 +1,50 @@
 /* INTRO */
 .intro {
   position: relative;
+  overflow: hidden;
 }
 
 .intro video {
   width: 100vw;
-  height: 80vh;
+  height: 100vh;
   object-fit: cover;
+  filter: grayscale(33%);
 }
 
 .intro-text {
+  display: grid;
+  justify-items: center;
+  gap: 40px;
+  width: 80%;
+  left: 10%;
   position: absolute;
   text-align: center;
   top: 25vh;
+}
+
+.intro-text p {
+  max-width: 40ch;
+}
+
+/* TABLETS */
+@media (min-width: 750px) {
+  /* INTRO */
+  .intro video {
+    height: 60vh;
+  }
+
+  .intro-text {
+    top: 20vh;
+  }
+}
+
+/* DESKTOPS */
+@media (min-width: 1200px) {
+  /* INTRO */
+  .intro video {
+    height: 90vh;
+  }
+  .intro-text {
+    top: 30vh;
+  }
 }
