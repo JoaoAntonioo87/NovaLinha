@@ -147,6 +147,7 @@
   /* SERVICES */
   .services {
     margin-top: 80px;
+    position: relative;
   }
 
   .services h2 {
@@ -156,11 +157,19 @@
   .service-item {
     background-color: var(--COLOR-S2);
     border-radius: 16px;
+    height: 100vh;
     margin-top: 40px;
+    z-index: 1;
+    position: relative;
   }
 
   .service-item:nth-child(odd) {
     background-color: var(--COLOR-GRAY2);
+  }
+
+  .service-item.active {
+    position: sticky;
+    top: 0px;
   }
 
   .service-text {

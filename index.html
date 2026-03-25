@@ -33,8 +33,8 @@
 
   <main class="main">
     <section class="intro">
-      <video autoplay loop muted preload>
-        <source src="./img/home/video-intro.mp4">
+      <video autoplay loop muted preload height="100" width="100" poster>
+        <source src="./img/home/video-intro.mp4" fetchpriority="high">
       </video>
 
       <div class="intro-text">
@@ -83,7 +83,7 @@
             </li>
           </ul>
         </div>
-        <picture><img class="service-img" srcset="./img/home/mobile/img-service-1.webp 450w, ./img/home/desktop/img-service-1.webp 800w" alt=""></picture>
+        <picture><img class="service-img" srcset="./img/home/mobile/img-service-1.webp 450w, ./img/home/desktop/img-service-1.webp 800w" alt="" loading="lazy"></picture>
       </article>
       <article class="service-item shadow4">
         <div class=" service-text">
@@ -100,7 +100,7 @@
             </li>
           </ul>
         </div>
-        <picture><img class="service-img" srcset="./img/home/mobile/img-service-2.webp 450w, ./img/home/desktop/img-service-2.webp 800w" alt=""></picture>
+        <picture><img class="service-img" srcset="./img/home/mobile/img-service-2.webp 450w, ./img/home/desktop/img-service-2.webp 800w" alt="" loading="lazy"></picture>
       </article>
       <article class="service-item shadow4">
         <div class=" service-text">
@@ -117,7 +117,51 @@
             </li>
           </ul>
         </div>
-        <picture><img class="service-img" srcset="./img/home/mobile/img-service-3.webp 450w, ./img/home/desktop/img-service-3.webp 800w" alt=""></picture>
+        <picture><img class="service-img" srcset="./img/home/mobile/img-service-3.webp 450w, ./img/home/desktop/img-service-3.webp 800w" alt="" loading="lazy"></picture>
+      </article>
+    </section>
+    <section class="about container">
+      <h2 class="font2-L gray6">A solução <strong class="font2-L p2">ideal</strong> para seus problemas</h2>
+      <img src="./img/icons/icon-computer.svg" alt="" class="about-icon">
+      <article class="about-list">
+        <div class="about-item">
+          <span class="about-number font1-XXL p1 ">+1700</span>
+          <p class="about-item-text font1-XL gray5 ">Projetos entregues atendidos com sucesso </p>
+        </div>
+        <div class="about-item">
+          <span class="about-number font1-XXL p1 ">+75</span>
+          <p class="about-item-text font1-XL gray5 ">Expansão para as empresas que atendemos</p>
+        </div>
+        <div class="about-item">
+          <span class="about-number font1-XXL p1 ">+4</span>
+          <p class="about-item-text font1-XL gray5 ">Anos de serviços no mercado web </p>
+        </div>
+      </article>
+      <article class="about-text">
+        <p class="font1-XL gray6">Transforme seu projeto hoje: peça um orçamento e descubra por que a NovaLinha é <strong class="font1-XL p2">líder em satisfação</strong>.</p>
+        <a href="./pages/contact.html" class="btn btn1">Contato</a>
+      </article>
+    </section>
+    <section class="about container">
+      <h2 class="font2-L gray6">A solução <strong class="font2-L p2">ideal</strong> para seus problemas</h2>
+      <img src="./img/icons/icon-computer.svg" alt="" class="about-icon">
+      <article class="about-list">
+        <div class="about-item">
+          <span class="about-number font1-XXL p1 ">+1700</span>
+          <p class="about-item-text font1-XL gray5 ">Projetos entregues atendidos com sucesso </p>
+        </div>
+        <div class="about-item">
+          <span class="about-number font1-XXL p1 ">+75</span>
+          <p class="about-item-text font1-XL gray5 ">Expansão para as empresas que atendemos</p>
+        </div>
+        <div class="about-item">
+          <span class="about-number font1-XXL p1 ">+4</span>
+          <p class="about-item-text font1-XL gray5 ">Anos de serviços no mercado web </p>
+        </div>
+      </article>
+      <article class="about-text">
+        <p class="font1-XL gray6">Transforme seu projeto hoje: peça um orçamento e descubra por que a NovaLinha é <strong class="font1-XL p2">líder em satisfação</strong>.</p>
+        <a href="./pages/contact.html" class="btn btn1">Contato</a>
       </article>
     </section>
     <section class="clients"></section>
