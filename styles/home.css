@@ -228,6 +228,7 @@
     .service-item {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      height: auto;
     }
 
     .service-img {
