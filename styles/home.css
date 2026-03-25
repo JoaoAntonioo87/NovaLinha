@@ -144,6 +144,113 @@
     }
   }
 
+  /* SERVICES */
+  .services {
+    margin-top: 80px;
+  }
+
+  .services h2 {
+    text-align: center;
+  }
+
+  .service-item {
+    background-color: var(--COLOR-S2);
+    border-radius: 16px;
+    margin-top: 40px;
+  }
+
+  .service-item:nth-child(odd) {
+    background-color: var(--COLOR-GRAY2);
+  }
+
+  .service-text {
+    padding: 20px;
+  }
+
+  .service-text h3 {
+    position: relative;
+  }
+
+  .service-text h3::after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: var(--COLOR-P3);
+    left: 0;
+    bottom: 0;
+  }
+
+  .service-text ul {
+    display: grid;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .service-text li {
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .service-text li::before {
+    position: absolute;
+    content: url(../img/icons/icon-circle-1.svg);
+    left: -20px;
+  }
+
+  .service-text li:nth-child(even)::before {
+    content: url(../img/icons/icon-circle-2.svg);
+  }
+
+  .service-text:nth-child(odd) li::before {
+    content: url(../img/icons/icon-circle-3.svg);
+  }
+
+  .service-text:nth-child(odd) li:nth-child(even)::before {
+    content: url(../img/icons/icon-circle-4.svg);
+  }
+
+  .service-img {
+    display: none;
+  }
+
+  /* TABLETS */
+  @media (min-width: 750px) {
+    .service-item {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .service-img {
+      display: block;
+      max-width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0 16px 16px 0;
+    }
+  }
+
+  /* DESKTOP */
+
+  @media (min-width: 1200px) {
+    .services {
+      margin-top: 120px;
+    }
+
+    .service-text {
+      padding: 40px;
+    }
+
+    .service-text ul {
+      gap: 32px;
+      margin-top: 40px;
+    }
+
+    .service-text li::before {
+      top: -2px;
+    }
+  }
+
   /* LARGE DESKTOPS */
   @media (min-width: 1800px) {
     .about-icon {

@@ -43,8 +43,8 @@ li {
   --FONT1-M1: 400 1.33rem/1 "Sansation";
   --FONT1-M2: 700 1.33rem/1 "Sansation";
   --FONT1-M3: 400 1.33rem/1 "Sansation";
-  --FONT1-S1: 400 1rem/1.33 "Sansation";
-  --FONT1-S2: 400 1rem/1 "Sansation";
+  --FONT1-S1: 400 1.2rem/1.2 "Sansation";
+  --FONT1-S2: 400 1.2rem/1 "Sansation";
   --FONT1-XS1: 700 0.75rem/1.2 "Sansation";
   --FONT1-XS2: 400 0.75rem/1.2 "Sansation";
   --FONT1-XS3: 400 0.75rem/1 "Sansation";
@@ -191,10 +191,10 @@ li {
   letter-spacing: 2px;
 }
 .font1-S1 {
-  font: 400 1rem/1.33 "Sansation";
+  font: 400 1.2rem/1.2 "Sansation";
 }
 .font1-S2 {
-  font: 400 1rem/1 "Sansation";
+  font: 400 1.2rem/1 "Sansation";
 }
 .font1-XS1 {
   font: 700 0.75rem/1.2 "Sansation";
